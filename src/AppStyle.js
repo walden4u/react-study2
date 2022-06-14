@@ -16,6 +16,10 @@ function App() {
     <>
       <h1 style={style}>Hello!!! {name}</h1>
       <h2 className="react">How are you?</h2>
+      <br />    {/* 한줄 주석입니다. */}  
+      <input />   {/* 여러줄 
+      
+      주석입니다. */} 
       {name === '리액트' ? <h2>리액트 입니다!</h2> : <h2>리액트가 아닙니다!</h2>}
       {name === '리액트' ? <h2>리액트 입니다!</h2> : null}  
       {name === '리액트' && <h2>리액트 입니다!</h2>}

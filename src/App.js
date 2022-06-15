@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <h1>Hello {name}</h1>
-      <MyComponent name='도우너' />
+      <MyComponent name='리액트' />
       <MyComponent />
       <MyComponent>칠드런</MyComponent>
     </>
